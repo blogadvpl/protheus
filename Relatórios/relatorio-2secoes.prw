@@ -1,3 +1,4 @@
+//Para mais detalhes acesse: https://www.blogadvpl.com/exemplo-de-relatorio-treport-com-2-secoes/
 #Include 'Protheus.ch'
 #Include 'Protheus.ch'
 #INCLUDE 'TOPCONN.CH'
