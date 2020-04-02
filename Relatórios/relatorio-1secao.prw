@@ -1,3 +1,4 @@
+//https://www.blogadvpl.com/criando-relatorio-em-treport-de-forma-simples/
 #Include 'Protheus.ch'
 #Include 'Report.ch'
 #DEFINE NOME_REL   'xTReport'
