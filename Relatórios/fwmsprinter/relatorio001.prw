@@ -17,6 +17,6 @@ User Function fPrintPDF()
   oPrinter:Say(210,10,"Teste para Code128C")
   cFilePrint := cLocal+"orcamento_000000.PD_"
   File2Printer( cFilePrint, "PDF" )
-        oPrinter:cPathPDF:= cLocal 
+    oPrinter:cPathPDF:= cLocal 
   oPrinter:Preview()
 Return
