@@ -4,11 +4,10 @@
  
 User Function REST002()
     Local oReport
-    Private cPerg := 'REST002'
- 
+    Private cPerg := 'REST002' 
     CriaSx1(cPerg)
     Pergunte(cPerg,.T.)
-    Processa({ || xPrintRel(),OemToAnsi('Gerando o relatÛrio.')}, OemToAnsi('Aguarde...'))
+    Processa({ || xPrintRel(),OemToAnsi('Gerando o relat√≥rio.')}, OemToAnsi('Aguarde...'))
 Return  
  
 Static Function xPrintRel()  
@@ -17,7 +16,7 @@ Static Function xPrintRel()
     Local nQtdPag   := 0
  
     Private oPrint
-    Private cAlias          := getNextAlias() //cria um alias tempor·rio
+    Private cAlias          := getNextAlias() //cria um alias tempor√°rio
     Private oFont06     := TFont():New('Arial',,06,,.F.,,,,.F.,.F.)
     Private oFont06n    := TFont():New('Arial',,06,,.T.,,,,.F.,.F.)
     Private oFont08     := TFont():New('Arial',,08,,.F.,,,,.F.,.F.)
@@ -85,7 +84,7 @@ Static Function xPrintRel()
 Return          
  
 Static Function CriaSx1(cPerg)
-    PutSx1(cPerg,"01","Do CÛdigo Interno?"  ,"Do CÛdigo Interno?" ,"Do CÛdigo Interno?" ,"mv_ch1","C",15,0,0,"G","","SB1","","","mv_par01")
-    PutSx1(cPerg,"02","AtÈ CÛdigo Interno?" ,"AtÈ CÛdigo Interno?","AtÈ CÛdigo Interno?","mv_ch2","C",15,0,0,"G","","SB1","","","mv_par02")
+    PutSx1(cPerg,"01","Do C√≥digo Interno?"  ,"Do C√≥digo Interno?" ,"Do C√≥digo Interno?" ,"mv_ch1","C",15,0,0,"G","","SB1","","","mv_par01")
+    PutSx1(cPerg,"02","At√© C√≥digo Interno?" ,"At√© C√≥digo Interno?","At√© C√≥digo Interno?","mv_ch2","C",15,0,0,"G","","SB1","","","mv_par02")
     PutSx1(cPerg,"03","Qtde Etiquetas"      ,"Qtde Etiquetas"     ,"Qtde Etiquetas"     ,"mv_ch3","N",05,0,0,"G","",""   ,"","","mv_par03")
 return
