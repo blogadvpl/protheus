@@ -1,5 +1,5 @@
 //https://www.blogadvpl.com/gerando-um-arquivo-em-pdf-sem-interface/
-```
+
 #INCLUDE "RPTDEF.CH"
 #INCLUDE "FWPrintSetup.ch"
 #INCLUDE "protheus.ch"
@@ -21,4 +21,4 @@ User Function fPrintPDF()
     oPrinter:cPathPDF:= cLocal 
   oPrinter:Preview()
 Return
-```
+
