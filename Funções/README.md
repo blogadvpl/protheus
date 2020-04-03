@@ -1,0 +1,1 @@
+Nossas funções são práticas e intuitivas para facilitar e ajudá-lo no desenvolvimento de customizações para sua empresa ou seu cliente.
