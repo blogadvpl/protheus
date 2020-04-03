@@ -1,7 +1,7 @@
 //https://www.blogadvpl.com/funcao-mscbprinter/
 #include "rwmake.ch" 
 User Function Etiqueta()
-    // DeclaraÁ„o de  vari·veis utilizadas no programa
+    // Declara√ß√£o de  vari√°veis utilizadas no programa
  
     SetPrvt("CPERG,CCOMBO,AITENS,VQETIQ,cCidade,nCount,VNFISCAL,VNR")
     SetPrvt("cPed,VCLIENTE,cCliEnt,cSerie,nLin,nCol,lPrim,cEndEnt,VQtdEmb")
@@ -22,7 +22,7 @@ User Function Etiqueta()
     Vcont := 0
  
     While vSair == .f.
-       @ 003,001 TO 355,450 DIALOG oDlg1   TITLE "Impress„o de Etiquetas -ExpediÁ„o"
+       @ 003,001 TO 355,450 DIALOG oDlg1   TITLE "Impress√£o de Etiquetas -Expedi√ß√£o"
        @ 135,045 BUTTON "_Imprimir"        SIZE 30,20 ACTION Impetiq()
        @ 135,128 BUTTON "_Sair"            SIZE 30,20 ACTION sair()
        @ 005,003 To 030,200
@@ -72,8 +72,7 @@ Return
 Static Function Sair()
 **********************
     Close(oDlg1)
-    vSair := .t.
- 
+    vSair := .t. 
 Return
  
 Static Function FillDSF2(_cDoc)
