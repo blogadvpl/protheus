@@ -1,0 +1,1 @@
+#Nesta pasta de Relatórios, disponibilizaremos alguns relatórios funcionais que irão te ajudar na criação de outros relatórios.
