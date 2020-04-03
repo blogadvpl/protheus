@@ -7,3 +7,7 @@ A idéia é mostrar as diversas funcionalidades possíveis que o ADVPL pode faze
 Comentários,perguntas, reclamações e elogios são bem-vindos.
 
 Let’s Share!
+
+***
+
+Quer saber mais? Acesse o blog https://www.blogadvpl.com/
